@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="offer_letter_sent" label="Offer Letter Sent" language="en" table="x_4s_recruiting_candidates">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>offer_letter_sent</element>
+            <help/>
+            <hint/>
+            <label>Offer Letter Sent</label>
+            <language>en</language>
+            <name>x_4s_recruiting_candidates</name>
+            <plural>Offer Letter Sents</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-10-31 18:24:25</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>c07334db13428b0031b855912244b00b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Offer Letter Sent</sys_name>
+            <sys_package display_value="Recruiting" source="x_4s_recruiting">8eca641313428b0031b855912244b01a</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Recruiting">8eca641313428b0031b855912244b01a</sys_scope>
+            <sys_update_name>sys_documentation_x_4s_recruiting_candidates_offer_letter_sent_en</sys_update_name>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-10-31 18:24:25</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="Candidate Interviews" max_length="40" name="x_4s_recruiting_candidate_interviews" type="collection">
+        <element label="Candidate" max_length="32" name="candidate" reference="x_4s_recruiting_candidates" type="reference"/>
+        <element label="Comments" max_length="4000" name="comments" type="string"/>
+        <element label="Interviewer" max_length="32" name="interviewer" reference="sys_user" type="reference"/>
+        <element label="Interview Criteria" max_length="2000" name="interview_criteria" type="string"/>
+        <element choice="1" label="Interview Type" max_length="40" name="interview_type" type="choice">
+            <choice/>
+        </element>
+        <element label="Key Skills" max_length="4000" name="key_skills" reference="cmn_skill" type="glide_list"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Open Position" max_length="32" name="open_position" reference="x_4s_recruiting_open_positions" type="reference"/>
+        <element label="Recommend?" max_length="40" name="recommend" type="boolean"/>
+        <element label="Save for Future Role?" max_length="40" name="save_for_future_role" type="boolean"/>
+        <index name="index">
+            <element name="interviewer"/>
+        </index>
+        <index name="index2">
+            <element name="candidate"/>
+        </index>
+        <index name="index3">
+            <element name="open_position"/>
+        </index>
+    </element>
+</database>

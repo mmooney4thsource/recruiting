@@ -9,7 +9,7 @@
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Offer" max_length="65536" name="offer" type="glide_encrypted"/>
         <element label="Offer Letter Accepted?" max_length="40" name="offer_letter_accepted" type="boolean"/>
-        <element label="Open Positions Filled" max_length="32" name="open_positions_filled" reference="x_4s_recruiting_open_positions" type="reference"/>
+        <element label="Open Position Filled" max_length="32" name="open_positions_filled" reference="x_4s_recruiting_open_positions" type="reference"/>
         <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
         <index name="index">
             <element name="new_hire"/>

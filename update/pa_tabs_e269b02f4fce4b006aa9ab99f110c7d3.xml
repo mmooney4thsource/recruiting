@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="cf38ed714f982200355297dd0210c70b" table="sys_ui_application">
-    <sys_ui_application action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <hint/>
-        <name>Recrtuiting</name>
-        <order/>
-        <roles/>
-        <sys_class_name>sys_ui_application</sys_class_name>
+<record_update sys_domain="cf38ed714f982200355297dd0210c70b" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page/>
+        <name>Home</name>
+        <page display_value="PA Home">a669bcab4fce4b006aa9ab99f110c7a8</page>
+        <sys_class_name>pa_tabs</sys_class_name>
         <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
-        <sys_created_on>2017-10-31 18:24:24</sys_created_on>
+        <sys_created_on>2017-11-01 13:29:00</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>cf38ed714f982200355297dd0210c70b</sys_domain>
         <sys_domain_path>!!!/!!!/!!$/</sys_domain_path>
-        <sys_id>b763f0db13428b0031b855912244b0c3</sys_id>
+        <sys_id>e269b02f4fce4b006aa9ab99f110c7d3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Recrtuiting</sys_name>
+        <sys_name>Home</sys_name>
         <sys_overrides/>
         <sys_package display_value="Recruiting" source="x_4s_recruiting">8eca641313428b0031b855912244b01a</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Recruiting">8eca641313428b0031b855912244b01a</sys_scope>
-        <sys_update_name>sys_ui_application_b763f0db13428b0031b855912244b0c3</sys_update_name>
+        <sys_update_name>pa_tabs_e269b02f4fce4b006aa9ab99f110c7d3</sys_update_name>
         <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
-        <sys_updated_on>2017-10-31 18:24:24</sys_updated_on>
-    </sys_ui_application>
+        <sys_updated_on>2017-11-01 13:29:00</sys_updated_on>
+    </pa_tabs>
 </record_update>

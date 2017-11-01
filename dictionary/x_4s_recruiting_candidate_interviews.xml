@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element audit="true" label="Candidate Interviews" max_length="40" name="x_4s_recruiting_candidate_interviews" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Candidate" max_length="32" name="candidate" reference="x_4s_recruiting_candidates" type="reference"/>
         <element label="Comments" max_length="4000" name="comments" type="string"/>
         <element label="Interviewer" max_length="32" name="interviewer" reference="sys_user" type="reference"/>
         <element label="Interview Criteria" max_length="2000" name="interview_criteria" type="string"/>
         <element choice="1" label="Interview Type" max_length="40" name="interview_type" type="choice">
-            <choice/>
+            <choice>
+                <element label="HR Screen" sequence="1" value="hr_screen"/>
+                <element label="Technical Interview" sequence="2" value="tech_interview"/>
+                <element label="Hiring Manager Interview" sequence="3" value="hm_interview"/>
+            </choice>
         </element>
         <element label="Key Skills" max_length="4000" name="key_skills" reference="cmn_skill" type="glide_list"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>

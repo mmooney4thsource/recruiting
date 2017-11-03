@@ -1,48 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
     <sys_ui_form_sections form_id="488e781713828b0031b855912244b0d5" sys_domain="cf38ed714f982200355297dd0210c70b" table="x_4s_recruiting_candidate_interviews" version="3">
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>0</position>
-            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
-            <sys_created_on>2017-10-31 19:12:45</sys_created_on>
-            <sys_domain>cf38ed714f982200355297dd0210c70b</sys_domain>
-            <sys_domain_path>!!!/!!!/!!$/</sys_domain_path>
-            <sys_id>008e781713828b0031b855912244b0d8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_4s_recruiting_candidate_interviews" name="x_4s_recruiting_candidate_interviews" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">488e781713828b0031b855912244b0d5</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_candidate_interviews" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">213a3c5313828b0031b855912244b069</sys_ui_section>
-            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
-            <sys_updated_on>2017-10-31 19:12:45</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>1</position>
-            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
-            <sys_created_on>2017-10-31 19:12:45</sys_created_on>
-            <sys_domain>cf38ed714f982200355297dd0210c70b</sys_domain>
-            <sys_domain_path>!!!/!!!/!!$/</sys_domain_path>
-            <sys_id>408e781713828b0031b855912244b0d9</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_4s_recruiting_candidate_interviews" name="x_4s_recruiting_candidate_interviews" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">488e781713828b0031b855912244b0d5</sys_ui_form>
-            <sys_ui_section caption="Interview Notes" display_value="Interview Notes" name="x_4s_recruiting_candidate_interviews" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">448e781713828b0031b855912244b0d4</sys_ui_section>
-            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
-            <sys_updated_on>2017-10-31 19:12:45</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>2</position>
-            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
-            <sys_created_on>2017-10-31 19:12:45</sys_created_on>
-            <sys_domain>cf38ed714f982200355297dd0210c70b</sys_domain>
-            <sys_domain_path>!!!/!!!/!!$/</sys_domain_path>
-            <sys_id>048e781713828b0031b855912244b0de</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_4s_recruiting_candidate_interviews" name="x_4s_recruiting_candidate_interviews" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">488e781713828b0031b855912244b0d5</sys_ui_form>
-            <sys_ui_section caption="Activity" display_value="Activity" name="x_4s_recruiting_candidate_interviews" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">8c8e781713828b0031b855912244b0d4</sys_ui_section>
-            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
-            <sys_updated_on>2017-10-31 19:12:45</sys_updated_on>
-        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_4s_recruiting_candidate_interviews</name>
             <roles/>

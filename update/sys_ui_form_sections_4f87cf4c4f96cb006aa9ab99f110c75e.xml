@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="4f87cf4c4f96cb006aa9ab99f110c75e" sys_domain="cf38ed714f982200355297dd0210c70b" table="hr_case_operations" version="3">
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>hr_case_operations</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-03 13:06:57</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>cf38ed714f982200355297dd0210c70b</sys_domain>
+            <sys_domain_path>!!!/!!!/!!$/</sys_domain_path>
+            <sys_id>4f87cf4c4f96cb006aa9ab99f110c75e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>hr_case_operations</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Recruiting" source="x_4s_recruiting">8eca641313428b0031b855912244b01a</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Recruiting">8eca641313428b0031b855912244b01a</sys_scope>
+            <sys_update_name>sys_ui_form_sections_4f87cf4c4f96cb006aa9ab99f110c75e</sys_update_name>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-03 13:06:57</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -18,6 +18,13 @@
         <element label="Open Position" max_length="32" name="open_position" reference="x_4s_recruiting_open_positions" type="reference"/>
         <element label="Recommend?" max_length="40" name="recommend" type="boolean"/>
         <element label="Save for Future Role?" max_length="40" name="save_for_future_role" type="boolean"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element label="Closed - Interview not completed" value="3"/>
+                <element label="Closed Complete" value="2"/>
+                <element label="Open" value="1"/>
+            </choice>
+        </element>
         <index name="index">
             <element name="interviewer"/>
         </index>

@@ -15,7 +15,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Job Description</column_label>
+        <column_label>Open Job Description</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -31,15 +31,15 @@
         <element>job_description</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
-        <max_length>2000</max_length>
+        <max_length>32</max_length>
         <name>x_4s_recruiting_open_positions</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="x_4s_recruiting_job_descriptions">x_4s_recruiting_job_descriptions</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -51,18 +51,18 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
-        <sys_created_on>2017-10-31 17:53:03</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
-        <sys_id>5d5b601313428b0031b855912244b004</sys_id>
+        <sys_created_on>2017-11-02 16:31:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d56c6e7b130acb0031b855912244b030</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Job Description</sys_name>
+        <sys_name>Open Job Description</sys_name>
         <sys_package display_value="Recruiting" source="x_4s_recruiting">8eca641313428b0031b855912244b01a</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Recruiting">8eca641313428b0031b855912244b01a</sys_scope>
         <sys_update_name>sys_dictionary_x_4s_recruiting_open_positions_job_description</sys_update_name>
         <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
-        <sys_updated_on>2017-10-31 17:53:03</sys_updated_on>
+        <sys_updated_on>2017-11-03 20:59:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

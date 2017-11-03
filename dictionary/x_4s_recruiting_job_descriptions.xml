@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Job Descriptions" max_length="40" name="x_4s_recruiting_job_descriptions" type="collection">
+        <element label="Associated Skills" max_length="4000" name="associated_skills" reference="cmn_skill_contains" type="glide_list"/>
+        <element label="Job Description" max_length="4000" name="job_description" type="string"/>
+        <element label="Job Name" max_length="90" name="name" type="string"/>
+        <element label="Nice to Have" max_length="2000" name="nice_to_have" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Required Skills" max_length="4000" name="required_skills" reference="cmn_skill" type="glide_list"/>
+    </element>
+</database>

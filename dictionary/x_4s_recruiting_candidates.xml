@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element audit="true" label="Candidates" max_length="40" name="x_4s_recruiting_candidates" type="collection">
-        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element default="true" label="Active" max_length="40" name="active" read_only="true" type="boolean"/>
         <element label="Address" max_length="120" name="address" type="string"/>
         <element label="Address 2" max_length="120" name="address_2" type="string"/>
-        <element choice="1" label="Approval" max_length="40" name="approval" type="choice">
+        <element choice="1" label="Approval" max_length="40" name="approval" read_only="true" type="choice">
             <choice>
                 <element label="Approved" sequence="0" value="approved"/>
-                <element label="Not Approved" sequence="1" value="not_approved"/>
+                <element label="Rejected" sequence="1" value="rejected"/>
             </choice>
         </element>
+        <element label="Approval History" max_length="4000" name="approval_history" type="journal"/>
         <element label="Available After" max_length="40" name="available_after" type="glide_date"/>
+        <element label="Candidate Location Type" max_length="40" name="candidate_location_type" type="string"/>
         <element label="City" max_length="60" name="city" type="string"/>
         <element choice="1" label="Current Status" max_length="40" name="current_status" type="choice">
             <choice>
@@ -20,22 +22,37 @@
             </choice>
         </element>
         <element label="Email" max_length="80" name="email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="First Name" max_length="60" name="first_name" type="string"/>
+        <element label="Gender" max_length="10" name="gender" type="string"/>
         <element label="Hire Location" max_length="32" name="hire_location" reference="cmn_location" type="reference"/>
-        <element label="Hiring Manager Interview" max_length="32" name="hiring_manager_interview" reference="x_4s_recruiting_candidate_interviews" type="reference"/>
-        <element label="Hiring Manager Interview Date" max_length="40" name="hiring_manager_interview_date" type="glide_date_time"/>
+        <element label="Manager Interview" max_length="32" name="hiring_manager_interview" reference="x_4s_recruiting_candidate_interviews" type="reference"/>
+        <element label="Manager Interview Date" max_length="40" name="hiring_manager_interview_date" type="glide_date_time"/>
         <element label="Home Phone" max_length="40" name="home_phone" type="phone_number_e164"/>
         <element label="HR Screen" max_length="32" name="hr_screen" reference="x_4s_recruiting_candidate_interviews" type="reference"/>
         <element label="HR Screened By" max_length="32" name="hr_screened_by" reference="sys_user" type="reference"/>
         <element label="HR Screen Date" max_length="40" name="hr_screen_date" type="glide_date"/>
-        <element label="Name" max_length="90" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Name" max_length="60" name="last_name" type="string"/>
+        <element label="Manager Interviewer" max_length="32" name="manager_interviewer" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Middle Name/Initial" max_length="40" name="middle_name" type="string"/>
+        <element display="true" label="Name" max_length="90" name="name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Offer Accepted" max_length="40" name="offer_accepted" type="boolean"/>
         <element label="Offer Letter Sent" max_length="40" name="offer_letter_sent" type="boolean"/>
+        <element label="Official Start Date" max_length="40" name="official_start_date" type="glide_date"/>
         <element label="Open Position Applied For" max_length="32" name="open_position_applied_for" reference="x_4s_recruiting_open_positions" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Time Type" max_length="80" name="position_type" type="string">
+            <choice>
+                <element label="Full-Time" sequence="0" value="1"/>
+                <element label="Part-Time" sequence="1" value="2"/>
+                <element label="Not Specified" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element label="Preferred E-mail Address" max_length="80" name="preferred_e_mail_address" type="string"/>
         <element label="Preferred Phone Number" max_length="40" name="preferred_phone_number" type="phone_number_e164"/>
         <element label="Salary Requirements" max_length="65536" name="salary_requirements" type="glide_encrypted"/>
         <element label="Save for Future" max_length="40" name="save_for_future" type="boolean"/>
         <element label="State" max_length="2" name="state" type="string"/>
-        <element choice="1" label="State" max_length="40" name="status" type="choice">
+        <element choice="1" label="Status" max_length="40" name="status" read_only="true" type="choice">
             <choice>
                 <element label="New - Pending Screen" sequence="0" value="pending_screen"/>
                 <element label="Scheduling Interviews" sequence="1" value="scheduling_interviews"/>
@@ -54,21 +71,24 @@
             <element name="open_position_applied_for"/>
         </index>
         <index name="index2">
-            <element name="technical_interview"/>
+            <element name="manager_interviewer"/>
         </index>
         <index name="index3">
-            <element name="hr_screen"/>
+            <element name="technical_interview"/>
         </index>
         <index name="index4">
-            <element name="technical_interviewer"/>
+            <element name="hr_screen"/>
         </index>
         <index name="index5">
-            <element name="hiring_manager_interview"/>
+            <element name="technical_interviewer"/>
         </index>
         <index name="index6">
-            <element name="hr_screened_by"/>
+            <element name="hiring_manager_interview"/>
         </index>
         <index name="index7">
+            <element name="hr_screened_by"/>
+        </index>
+        <index name="index8">
             <element name="hire_location"/>
         </index>
     </element>

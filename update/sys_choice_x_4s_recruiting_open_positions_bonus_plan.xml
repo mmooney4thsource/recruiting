@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="bonus_plan" table="x_4s_recruiting_open_positions" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>bonus_plan</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_4s_recruiting_open_positions</name>
+            <sequence/>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-03 21:14:42</sys_created_on>
+            <sys_domain>cf38ed714f982200355297dd0210c70b</sys_domain>
+            <sys_domain_path/>
+            <sys_id>7f17fc544fdacb006aa9ab99f110c7e8</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-03 21:14:50</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>bonus_plan</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_4s_recruiting_open_positions</name>
+            <sequence/>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-03 21:14:18</sys_created_on>
+            <sys_domain>cf38ed714f982200355297dd0210c70b</sys_domain>
+            <sys_domain_path/>
+            <sys_id>7917bc544fdacb006aa9ab99f110c7e9</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-03 21:14:37</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>bonus_plan</element>
+            <name>x_4s_recruiting_open_positions</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-03 21:14:18</sys_created_on>
+            <sys_id>7691bdb74fd2030032d31b818110c74c</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>bonus_plan</sys_name>
+            <sys_package display_value="Recruiting" source="x_4s_recruiting">8eca641313428b0031b855912244b01a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Recruiting">8eca641313428b0031b855912244b01a</sys_scope>
+            <sys_update_name>sys_choice_x_4s_recruiting_open_positions_bonus_plan</sys_update_name>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-03 21:14:44</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -4,13 +4,11 @@
         <sys_class_name>sys_ui_action_role</sys_class_name>
         <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
         <sys_created_on>2017-11-01 14:56:10</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
         <sys_id>293d4d6b4f028b006aa9ab99f110c7f0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Add New Candidate.x_4s_recruiting.hr_user</sys_name>
         <sys_package display_value="Recruiting" source="x_4s_recruiting">8eca641313428b0031b855912244b01a</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Recruiting">8eca641313428b0031b855912244b01a</sys_scope>
         <sys_ui_action display_value="Add New Candidate">d934782b4fce4b006aa9ab99f110c79b</sys_ui_action>
         <sys_update_name>sys_ui_action_role_293d4d6b4f028b006aa9ab99f110c7f0</sys_update_name>

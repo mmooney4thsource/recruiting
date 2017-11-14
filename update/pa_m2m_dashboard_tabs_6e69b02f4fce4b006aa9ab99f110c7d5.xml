@@ -3,11 +3,11 @@
     <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
         <dashboard display_value="Recruiting Dashboard">d539302f4fce4b006aa9ab99f110c781</dashboard>
         <home>false</home>
+        <homepage/>
         <order>1</order>
         <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
         <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
         <sys_created_on>2017-11-01 13:29:00</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
         <sys_domain>cf38ed714f982200355297dd0210c70b</sys_domain>
         <sys_domain_path>!!!/!!!/!!$/</sys_domain_path>
         <sys_id>6e69b02f4fce4b006aa9ab99f110c7d5</sys_id>
@@ -16,7 +16,6 @@
         <sys_overrides/>
         <sys_package display_value="Recruiting" source="x_4s_recruiting">8eca641313428b0031b855912244b01a</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Recruiting">8eca641313428b0031b855912244b01a</sys_scope>
         <sys_update_name>pa_m2m_dashboard_tabs_6e69b02f4fce4b006aa9ab99f110c7d5</sys_update_name>
         <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>

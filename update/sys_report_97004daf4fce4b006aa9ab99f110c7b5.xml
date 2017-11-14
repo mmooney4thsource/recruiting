@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="cf38ed714f982200355297dd0210c70b" table="sys_report">
+<record_update table="sys_report">
     <sys_report action="INSERT_OR_UPDATE">
         <additional_groupby/>
         <aggregate>COUNT</aggregate>
@@ -24,12 +24,15 @@
         <column>active</column>
         <compute_percent>aggregate</compute_percent>
         <content/>
+        <created_by_user/>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
         <decimal_precision>0</decimal_precision>
         <description/>
         <direction>minimize</direction>
+        <display_column_lines>false</display_column_lines>
         <display_grid>true</display_grid>
+        <display_row_lines>false</display_row_lines>
         <donut_width_percent>50</donut_width_percent>
         <exp_report_attrs>true</exp_report_attrs>
         <field>status</field>
@@ -40,6 +43,7 @@
         <funnel_neck_percent>30</funnel_neck_percent>
         <gauge_autoscale>true</gauge_autoscale>
         <group/>
+        <import_table/>
         <interval>month</interval>
         <is_published>false</is_published>
         <is_scheduled>false</is_scheduled>
@@ -59,6 +63,7 @@
         <other_threshold>-2</other_threshold>
         <others>false</others>
         <page_hdrftr display_value="Default">0ecdb03fc3613000cef73b251eba8f5e</page_hdrftr>
+        <pivot_expanded>false</pivot_expanded>
         <report_drilldown/>
         <report_source/>
         <roles/>
@@ -83,16 +88,11 @@
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
         <sys_created_on>2017-11-01 13:58:00</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
-        <sys_domain>cf38ed714f982200355297dd0210c70b</sys_domain>
-        <sys_domain_path>!!!/!!!/!!$/</sys_domain_path>
         <sys_id>97004daf4fce4b006aa9ab99f110c7b5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Candidates by Status</sys_name>
-        <sys_overrides/>
         <sys_package display_value="Recruiting" source="x_4s_recruiting">8eca641313428b0031b855912244b01a</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Recruiting">8eca641313428b0031b855912244b01a</sys_scope>
         <sys_update_name>sys_report_97004daf4fce4b006aa9ab99f110c7b5</sys_update_name>
         <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
@@ -106,7 +106,6 @@
         <type>pareto</type>
         <upper_limit/>
         <use_color_heatmap>true</use_color_heatmap>
-        <use_color_palette>true</use_color_palette>
         <user>175ece734f34fa00643c2f1e0210c7d0</user>
         <x_axis_display_grid>false</x_axis_display_grid>
         <x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color>

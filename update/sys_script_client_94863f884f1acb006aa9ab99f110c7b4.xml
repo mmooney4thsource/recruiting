@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="cf38ed714f982200355297dd0210c70b" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>hr_screen_date</field>
+        <global>true</global>
+        <messages/>
+        <name>Populate HR Screener</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	var interviewer = new GlideAjax('x_4s_recruiting.AJAXRecruitingHelper');
+	interviewer.addParam('sysparm_name', 'returnInterviewer');
+	interviewer.addParam('sysparm_recid', g_form.getValue('open_position_applied_for'));
+	interviewer.addParam('sysparm_inttype', 1);
+	interviewer.getXML(updateInterviewer);
+}
+function updateInterviewer(response){
+	var answer = response.responseXML.documentElement.getAttribute("answer");
+	g_form.addInfoMessage(answer);
+	g_form.setValue('hr_screened_by', answer);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-03 16:32:07</sys_created_on>
+        <sys_domain>cf38ed714f982200355297dd0210c70b</sys_domain>
+        <sys_domain_path/>
+        <sys_id>94863f884f1acb006aa9ab99f110c7b4</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Populate HR Screener</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Recruiting" source="x_4s_recruiting">8eca641313428b0031b855912244b01a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Recruiting">8eca641313428b0031b855912244b01a</sys_scope>
+        <sys_update_name>sys_script_client_94863f884f1acb006aa9ab99f110c7b4</sys_update_name>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-06 18:58:38</sys_updated_on>
+        <table>x_4s_recruiting_candidates</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

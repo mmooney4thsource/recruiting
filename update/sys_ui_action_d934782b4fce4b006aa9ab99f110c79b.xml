@@ -10,6 +10,7 @@
         <form_button>true</form_button>
         <form_context_menu>true</form_context_menu>
         <form_link>false</form_link>
+        <form_style/>
         <hint/>
         <list_action>false</list_action>
         <list_banner_button>false</list_banner_button>
@@ -18,11 +19,12 @@
         <list_context_menu>false</list_context_menu>
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
         <name>Add New Candidate</name>
         <onclick/>
         <order>100</order>
         <script><![CDATA[var currentUrl = gs.getProperty('glide.servlet.uri');
-action.setRedirectURL(currentUrl + '/x_4s_recruiting_candidates.do?sys_id=-1');]]></script>
+action.setRedirectURL(currentUrl + '/x_4s_recruiting_candidates.do?sys_id=-1&sysparm_query=open_position_applied_for=' + current.sys_id);]]></script>
         <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -30,20 +32,18 @@ action.setRedirectURL(currentUrl + '/x_4s_recruiting_candidates.do?sys_id=-1');]
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
         <sys_created_on>2017-11-01 13:16:21</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
         <sys_domain>cf38ed714f982200355297dd0210c70b</sys_domain>
         <sys_domain_path>!!!/!!!/!!$/</sys_domain_path>
         <sys_id>d934782b4fce4b006aa9ab99f110c79b</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Add New Candidate</sys_name>
         <sys_overrides/>
         <sys_package display_value="Recruiting" source="x_4s_recruiting">8eca641313428b0031b855912244b01a</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Recruiting">8eca641313428b0031b855912244b01a</sys_scope>
         <sys_update_name>sys_ui_action_d934782b4fce4b006aa9ab99f110c79b</sys_update_name>
         <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
-        <sys_updated_on>2017-11-01 15:05:02</sys_updated_on>
+        <sys_updated_on>2017-11-02 17:33:00</sys_updated_on>
         <table>x_4s_recruiting_open_positions</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>true</ui16_compatible>

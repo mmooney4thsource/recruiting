@@ -52,17 +52,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
         <sys_created_on>2017-10-31 18:24:22</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
-        <sys_id>6e03f09b13428b0031b855912244b07b</sys_id>
+        <sys_id>269ce97f4f92030032d31b818110c7bd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Save for Future</sys_name>
         <sys_package display_value="Recruiting" source="x_4s_recruiting">8eca641313428b0031b855912244b01a</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Recruiting">8eca641313428b0031b855912244b01a</sys_scope>
         <sys_update_name>sys_dictionary_x_4s_recruiting_candidates_save_for_future</sys_update_name>
-        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
-        <sys_updated_on>2017-10-31 18:24:22</sys_updated_on>
+        <sys_updated_by>mmooney</sys_updated_by>
+        <sys_updated_on>2017-11-14 22:28:30</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

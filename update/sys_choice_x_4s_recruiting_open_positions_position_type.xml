@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="position_type" table="x_4s_recruiting_open_positions" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>position_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Permanent</label>
+            <language>en</language>
+            <name>x_4s_recruiting_open_positions</name>
+            <sequence>0</sequence>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-13 16:49:44</sys_created_on>
+            <sys_domain>cf38ed714f982200355297dd0210c70b</sys_domain>
+            <sys_domain_path/>
+            <sys_id>bf6a1b9f135ac34031b855912244b0eb</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-13 16:50:58</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>position_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fixed Term Contract</label>
+            <language>en</language>
+            <name>x_4s_recruiting_open_positions</name>
+            <sequence>1</sequence>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-13 16:10:39</sys_created_on>
+            <sys_domain>cf38ed714f982200355297dd0210c70b</sys_domain>
+            <sys_domain_path/>
+            <sys_id>9f715797135ac34031b855912244b0c9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-13 16:13:03</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>position_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Temporary</label>
+            <language>en</language>
+            <name>x_4s_recruiting_open_positions</name>
+            <sequence>2</sequence>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-13 16:10:39</sys_created_on>
+            <sys_domain>cf38ed714f982200355297dd0210c70b</sys_domain>
+            <sys_domain_path/>
+            <sys_id>db715797135ac34031b855912244b0ca</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-13 16:13:14</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>position_type</element>
+            <name>x_4s_recruiting_open_positions</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-03 15:46:07</sys_created_on>
+            <sys_id>be91bdb74fd2030032d31b818110c760</sys_id>
+            <sys_mod_count>14</sys_mod_count>
+            <sys_name>position_type</sys_name>
+            <sys_package display_value="Recruiting" source="x_4s_recruiting">8eca641313428b0031b855912244b01a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Recruiting">8eca641313428b0031b855912244b01a</sys_scope>
+            <sys_update_name>sys_choice_x_4s_recruiting_open_positions_position_type</sys_update_name>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-13 16:50:58</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

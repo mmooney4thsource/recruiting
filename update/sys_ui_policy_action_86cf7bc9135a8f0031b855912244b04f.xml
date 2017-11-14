@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>true</disabled>
+        <field>hiring_manager_interview_date</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-06 19:46:49</sys_created_on>
+        <sys_id>86cf7bc9135a8f0031b855912244b04f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>hiring_manager_interview_date</sys_name>
+        <sys_package display_value="Recruiting" source="x_4s_recruiting">8eca641313428b0031b855912244b01a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Recruiting">8eca641313428b0031b855912244b01a</sys_scope>
+        <sys_update_name>sys_ui_policy_action_86cf7bc9135a8f0031b855912244b04f</sys_update_name>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-06 19:46:49</sys_updated_on>
+        <table>x_4s_recruiting_candidates</table>
+        <ui_policy display_value="Read Only Fields Until Next Interview Step">1a4e3749135a8f0031b855912244b00f</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

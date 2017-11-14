@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_4s_recruiting.AJAXRecruitingHelper</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>AJAXRecruitingHelper</name>
+        <script><![CDATA[var AJAXRecruitingHelper = Class.create();
+AJAXRecruitingHelper.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	updateAssociatedSkills : function(){
+		var skillArray = [];
+		var newValue = this.getParameter('sysparm_newvalue');
+		gs.info(newValue + " is what was passed");
+		
+		var assocSkill = new GlideRecord('cmn_skill_contains');
+		assocSkill.addQuery('skill', newValue);
+		assocSkill.query();
+		while (assocSkill.next()){
+			gs.info(skillArray.name);
+			skillArray.push(assocSkill.sys_id);
+		}
+		gs.info("Returning array of sys_id's for associated skills: " + skillArray.toString());
+		return skillArray.toString();
+	},
+	
+	returnInterviewer : function(){
+		var recId = this.getParameter('sysparm_recid');
+		var retVal = '';
+		var intType = this.getParameter('sysparm_inttype');
+		var intRec = new GlideRecord('x_4s_recruiting_open_positions');
+		intRec.addQuery('sys_id', recId);
+		intRec.query();
+		if (intRec.next()){
+			gs.info(intRec.recruiter_screener + ' recruiter');
+			if (intType == 1){
+				return intRec.getValue('recruiter_screener');
+			} else if (intType == 2){
+				return intRec.getValue('technical_interviewers');
+			} else if (intType == 3) {
+				return intRec.getValue('manager_interviewer');
+			} else {
+				return null;
+			}
+		} else {
+			return null;
+		}
+		
+			
+	},
+	
+    type: 'AJAXRecruitingHelper'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-02 15:46:57</sys_created_on>
+        <sys_id>ae28d27f13c6cb0031b855912244b0b6</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>AJAXRecruitingHelper</sys_name>
+        <sys_package display_value="Recruiting" source="x_4s_recruiting">8eca641313428b0031b855912244b01a</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Recruiting">8eca641313428b0031b855912244b01a</sys_scope>
+        <sys_update_name>sys_script_include_ae28d27f13c6cb0031b855912244b0b6</sys_update_name>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-06 19:30:34</sys_updated_on>
+    </sys_script_include>
+</record_update>

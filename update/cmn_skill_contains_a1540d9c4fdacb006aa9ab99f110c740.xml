@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="cmn_skill_contains">
+    <cmn_skill_contains action="INSERT_OR_UPDATE">
+        <contains display_value="Application Design">2444015c4fdacb006aa9ab99f110c732</contains>
+        <name>ServiceNow Architect - Application Design</name>
+        <skill display_value="ServiceNow Architect">da04499c4fdacb006aa9ab99f110c7a2</skill>
+        <sys_class_name>cmn_skill_contains</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-03 22:12:10</sys_created_on>
+        <sys_id>a1540d9c4fdacb006aa9ab99f110c740</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Application Design.ServiceNow Architect</sys_name>
+        <sys_package display_value="Recruiting" source="x_4s_recruiting">8eca641313428b0031b855912244b01a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Recruiting">8eca641313428b0031b855912244b01a</sys_scope>
+        <sys_update_name>cmn_skill_contains_a1540d9c4fdacb006aa9ab99f110c740</sys_update_name>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-03 22:12:10</sys_updated_on>
+    </cmn_skill_contains>
+</record_update>

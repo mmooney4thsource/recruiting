@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="recruiter_screener" label="Recruiter Screener" language="en" table="x_4s_recruiting_open_positions">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>recruiter_screener</element>
+            <help/>
+            <hint/>
+            <label>Recruiter Screener</label>
+            <language>en</language>
+            <name>x_4s_recruiting_open_positions</name>
+            <plural>Recruiter Screeners</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-03 16:19:07</sys_created_on>
+            <sys_id>b583f3484f1acb006aa9ab99f110c71a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Recruiter Screener</sys_name>
+            <sys_package display_value="Recruiting" source="x_4s_recruiting">8eca641313428b0031b855912244b01a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Recruiting">8eca641313428b0031b855912244b01a</sys_scope>
+            <sys_update_name>sys_documentation_x_4s_recruiting_open_positions_recruiter_screener_en</sys_update_name>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-03 16:19:07</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

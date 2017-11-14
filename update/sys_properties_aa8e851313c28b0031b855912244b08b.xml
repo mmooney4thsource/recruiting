@@ -11,19 +11,17 @@
         <sys_class_name>sys_properties</sys_class_name>
         <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
         <sys_created_on>2017-10-31 20:22:50</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
         <sys_id>aa8e851313c28b0031b855912244b08b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>glide.ui.x_4s_recruiting_candidates_activity.fields</sys_name>
         <sys_package display_value="Recruiting" source="x_4s_recruiting">8eca641313428b0031b855912244b01a</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Recruiting">8eca641313428b0031b855912244b01a</sys_scope>
         <sys_update_name>sys_properties_aa8e851313c28b0031b855912244b08b</sys_update_name>
         <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
-        <sys_updated_on>2017-10-31 20:31:54</sys_updated_on>
+        <sys_updated_on>2017-11-06 18:41:29</sys_updated_on>
         <type>string</type>
-        <value>number,name,open_position_applied_for,hire_location,available_after,current_status,status,approval,sys_created_by,*Attachments*,*Relations*</value>
+        <value>number,name,open_position_applied_for,hire_location,available_after,current_status,status,approval,sys_created_by,*Attachments*,*Relations*,approval_history,hr_screen,manager_interviewer,technical_interviewer,sys_created_on,state,*Email*,zip,sys_updated_by,sys_updated_on,save_for_future,salary_requirements,preferred_phone_number,position_type,offer_letter_sent,offer_accepted,middle_name,last_name,home_phone,first_name,email,city,address_2,address,active,technical_interview_date,technical_interview,hiring_manager_interview_date,hiring_manager_interview,hr_screen_date,hr_screened_by</value>
         <write_roles/>
     </sys_properties>
     <sys_translated_text action="delete_multiple" query="documentkey=aa8e851313c28b0031b855912244b08b"/>

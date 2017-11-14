@@ -5,13 +5,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
-            <sys_created_on>2017-10-31 18:47:10</sys_created_on>
-            <sys_id>51a8fc1313828b0031b855912244b0cd</sys_id>
+            <sys_created_on>2017-11-03 21:35:09</sys_created_on>
+            <sys_id>53dbfc184fdacb006aa9ab99f110c7ea</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_open_positions" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">28d7f09f13428b0031b855912244b0e6</sys_ui_section>
             <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
-            <sys_updated_on>2017-10-31 18:47:10</sys_updated_on>
+            <sys_updated_on>2017-11-03 21:35:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,71 +19,435 @@
             <element>name</element>
             <position>1</position>
             <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
-            <sys_created_on>2017-10-31 18:47:10</sys_created_on>
-            <sys_id>d9a8fc1313828b0031b855912244b0cd</sys_id>
+            <sys_created_on>2017-11-03 21:35:09</sys_created_on>
+            <sys_id>d3dbfc184fdacb006aa9ab99f110c7ea</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_open_positions" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">28d7f09f13428b0031b855912244b0e6</sys_ui_section>
             <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
-            <sys_updated_on>2017-10-31 18:47:10</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>functional_area</element>
-            <position>2</position>
-            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
-            <sys_created_on>2017-10-31 18:47:10</sys_created_on>
-            <sys_id>5da8fc1313828b0031b855912244b0cd</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_open_positions" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">28d7f09f13428b0031b855912244b0e6</sys_ui_section>
-            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
-            <sys_updated_on>2017-10-31 18:47:10</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>3</position>
-            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
-            <sys_created_on>2017-10-31 18:47:10</sys_created_on>
-            <sys_id>dda8fc1313828b0031b855912244b0cd</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_open_positions" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">28d7f09f13428b0031b855912244b0e6</sys_ui_section>
-            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
-            <sys_updated_on>2017-10-31 18:47:10</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>active</element>
-            <position>4</position>
-            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
-            <sys_created_on>2017-10-31 18:47:10</sys_created_on>
-            <sys_id>51a8fc1313828b0031b855912244b0ce</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_open_positions" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">28d7f09f13428b0031b855912244b0e6</sys_ui_section>
-            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
-            <sys_updated_on>2017-10-31 18:47:10</sys_updated_on>
+            <sys_updated_on>2017-11-03 21:35:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>status</element>
-            <position>5</position>
+            <position>2</position>
             <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
-            <sys_created_on>2017-10-31 18:47:10</sys_created_on>
-            <sys_id>d1a8fc1313828b0031b855912244b0ce</sys_id>
+            <sys_created_on>2017-11-03 21:35:09</sys_created_on>
+            <sys_id>57dbfc184fdacb006aa9ab99f110c7ea</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_open_positions" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">28d7f09f13428b0031b855912244b0e6</sys_ui_section>
             <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
-            <sys_updated_on>2017-10-31 18:47:10</sys_updated_on>
+            <sys_updated_on>2017-11-03 21:35:09</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approval_group</element>
+            <position>3</position>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-03 21:35:09</sys_created_on>
+            <sys_id>d7dbfc184fdacb006aa9ab99f110c7ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_open_positions" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">28d7f09f13428b0031b855912244b0e6</sys_ui_section>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-03 21:35:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>4</position>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-03 21:35:09</sys_created_on>
+            <sys_id>5bdbfc184fdacb006aa9ab99f110c7ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_open_positions" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">28d7f09f13428b0031b855912244b0e6</sys_ui_section>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-03 21:35:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>position_type</element>
+            <position>5</position>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-03 21:35:09</sys_created_on>
+            <sys_id>dbdbfc184fdacb006aa9ab99f110c7ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_open_positions" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">28d7f09f13428b0031b855912244b0e6</sys_ui_section>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-03 21:35:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>department</element>
+            <position>6</position>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-03 21:35:09</sys_created_on>
+            <sys_id>5fdbfc184fdacb006aa9ab99f110c7ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_open_positions" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">28d7f09f13428b0031b855912244b0e6</sys_ui_section>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-03 21:35:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>salary_range</element>
+            <position>7</position>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-03 21:35:09</sys_created_on>
+            <sys_id>dfdbfc184fdacb006aa9ab99f110c7ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_open_positions" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">28d7f09f13428b0031b855912244b0e6</sys_ui_section>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-03 21:35:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-03 21:35:09</sys_created_on>
+            <sys_id>53dbfc184fdacb006aa9ab99f110c7eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_open_positions" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">28d7f09f13428b0031b855912244b0e6</sys_ui_section>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-03 21:35:09</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>client</element>
+            <position>9</position>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-03 21:35:09</sys_created_on>
+            <sys_id>d3dbfc184fdacb006aa9ab99f110c7eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_open_positions" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">28d7f09f13428b0031b855912244b0e6</sys_ui_section>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-03 21:35:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opportunity</element>
+            <position>10</position>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-03 21:35:09</sys_created_on>
+            <sys_id>57dbfc184fdacb006aa9ab99f110c7eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_open_positions" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">28d7f09f13428b0031b855912244b0e6</sys_ui_section>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-03 21:35:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hiring_manager</element>
+            <position>11</position>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-03 21:35:09</sys_created_on>
+            <sys_id>d7dbfc184fdacb006aa9ab99f110c7eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_open_positions" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">28d7f09f13428b0031b855912244b0e6</sys_ui_section>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-03 21:35:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>target_hire_date</element>
+            <position>12</position>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-03 21:35:09</sys_created_on>
+            <sys_id>5bdbfc184fdacb006aa9ab99f110c7eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_open_positions" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">28d7f09f13428b0031b855912244b0e6</sys_ui_section>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-03 21:35:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hire_location</element>
+            <position>13</position>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-03 21:35:09</sys_created_on>
+            <sys_id>dbdbfc184fdacb006aa9ab99f110c7eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_open_positions" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">28d7f09f13428b0031b855912244b0e6</sys_ui_section>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-03 21:35:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>job_description</element>
+            <position>14</position>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-03 21:35:09</sys_created_on>
+            <sys_id>5fdbfc184fdacb006aa9ab99f110c7eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_open_positions" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">28d7f09f13428b0031b855912244b0e6</sys_ui_section>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-03 21:35:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bonus_plan</element>
+            <position>15</position>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-03 21:35:09</sys_created_on>
+            <sys_id>dfdbfc184fdacb006aa9ab99f110c7eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_open_positions" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">28d7f09f13428b0031b855912244b0e6</sys_ui_section>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-03 21:35:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>16</position>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-03 21:35:09</sys_created_on>
+            <sys_id>53dbfc184fdacb006aa9ab99f110c7ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_open_positions" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">28d7f09f13428b0031b855912244b0e6</sys_ui_section>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-03 21:35:09</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>job_description.job_description</element>
+            <position>17</position>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-03 21:35:09</sys_created_on>
+            <sys_id>d3dbfc184fdacb006aa9ab99f110c7ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_open_positions" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">28d7f09f13428b0031b855912244b0e6</sys_ui_section>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-03 21:35:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>unref_job_desc</element>
+            <position>18</position>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-03 21:35:09</sys_created_on>
+            <sys_id>57dbfc184fdacb006aa9ab99f110c7ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_open_positions" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">28d7f09f13428b0031b855912244b0e6</sys_ui_section>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-03 21:35:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>job_description.nice_to_have</element>
+            <position>19</position>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-03 21:35:09</sys_created_on>
+            <sys_id>d7dbfc184fdacb006aa9ab99f110c7ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_open_positions" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">28d7f09f13428b0031b855912244b0e6</sys_ui_section>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-03 21:35:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>unref_nice_to_have</element>
+            <position>20</position>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-03 21:35:09</sys_created_on>
+            <sys_id>5bdbfc184fdacb006aa9ab99f110c7ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_open_positions" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">28d7f09f13428b0031b855912244b0e6</sys_ui_section>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-03 21:35:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>21</position>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-03 21:35:09</sys_created_on>
+            <sys_id>dbdbfc184fdacb006aa9ab99f110c7ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_open_positions" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">28d7f09f13428b0031b855912244b0e6</sys_ui_section>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-03 21:35:09</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>job_description.required_skills</element>
+            <position>22</position>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-03 21:35:09</sys_created_on>
+            <sys_id>5fdbfc184fdacb006aa9ab99f110c7ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_open_positions" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">28d7f09f13428b0031b855912244b0e6</sys_ui_section>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-03 21:35:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>required_skills_no_op</element>
+            <position>23</position>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-03 21:35:09</sys_created_on>
+            <sys_id>dfdbfc184fdacb006aa9ab99f110c7ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_open_positions" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">28d7f09f13428b0031b855912244b0e6</sys_ui_section>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-03 21:35:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>job_description.associated_skills</element>
+            <position>24</position>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-03 21:35:09</sys_created_on>
+            <sys_id>53dbfc184fdacb006aa9ab99f110c7ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_open_positions" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">28d7f09f13428b0031b855912244b0e6</sys_ui_section>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-03 21:35:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assoc_skills_no_op</element>
+            <position>25</position>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-03 21:35:09</sys_created_on>
+            <sys_id>d3dbfc184fdacb006aa9ab99f110c7ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_open_positions" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">28d7f09f13428b0031b855912244b0e6</sys_ui_section>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-03 21:35:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>26</position>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-03 21:35:09</sys_created_on>
+            <sys_id>57dbfc184fdacb006aa9ab99f110c7ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_open_positions" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">28d7f09f13428b0031b855912244b0e6</sys_ui_section>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-03 21:35:09</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>recruiter_screener</element>
+            <position>27</position>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-03 21:35:09</sys_created_on>
+            <sys_id>d7dbfc184fdacb006aa9ab99f110c7ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_open_positions" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">28d7f09f13428b0031b855912244b0e6</sys_ui_section>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-03 21:35:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>technical_interviewers</element>
+            <position>28</position>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-03 21:35:09</sys_created_on>
+            <sys_id>5bdbfc184fdacb006aa9ab99f110c7ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_open_positions" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">28d7f09f13428b0031b855912244b0e6</sys_ui_section>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-03 21:35:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>manager_interviewer</element>
+            <position>29</position>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-03 21:35:09</sys_created_on>
+            <sys_id>dbdbfc184fdacb006aa9ab99f110c7ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_open_positions" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">28d7f09f13428b0031b855912244b0e6</sys_ui_section>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-03 21:35:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>30</position>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-03 21:35:09</sys_created_on>
+            <sys_id>5fdbfc184fdacb006aa9ab99f110c7ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_open_positions" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">28d7f09f13428b0031b855912244b0e6</sys_ui_section>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-03 21:35:09</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>31</position>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-11-03 21:35:09</sys_created_on>
+            <sys_id>dfdbfc184fdacb006aa9ab99f110c7ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_open_positions" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">28d7f09f13428b0031b855912244b0e6</sys_ui_section>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-11-03 21:35:09</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
@@ -93,7 +457,6 @@
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
             <sys_created_on>2017-10-31 18:43:34</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
             <sys_domain>cf38ed714f982200355297dd0210c70b</sys_domain>
             <sys_domain_path>!!!/!!!/!!$/</sys_domain_path>
             <sys_id>28d7f09f13428b0031b855912244b0e6</sys_id>
@@ -102,7 +465,6 @@
             <sys_overrides/>
             <sys_package display_value="Recruiting" source="x_4s_recruiting">8eca641313428b0031b855912244b01a</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Recruiting">8eca641313428b0031b855912244b01a</sys_scope>
             <sys_update_name>sys_ui_section_28d7f09f13428b0031b855912244b0e6</sys_update_name>
             <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>

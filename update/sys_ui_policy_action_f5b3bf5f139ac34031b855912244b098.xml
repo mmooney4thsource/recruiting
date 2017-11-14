@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>true</disabled>
+        <field>open_position.job_description.required_skills</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-13 18:40:31</sys_created_on>
+        <sys_id>f5b3bf5f139ac34031b855912244b098</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>open_position.job_description.required_skills</sys_name>
+        <sys_package display_value="Recruiting" source="x_4s_recruiting">8eca641313428b0031b855912244b01a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Recruiting">8eca641313428b0031b855912244b01a</sys_scope>
+        <sys_update_name>sys_ui_policy_action_f5b3bf5f139ac34031b855912244b098</sys_update_name>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-13 18:42:49</sys_updated_on>
+        <table>x_4s_recruiting_candidate_interviews</table>
+        <ui_policy display_value="Read Only Related Fields">dd333b5f139ac34031b855912244b01d</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

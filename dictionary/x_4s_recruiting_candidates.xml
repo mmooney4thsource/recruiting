@@ -6,8 +6,9 @@
         <element label="Address 2" max_length="120" name="address_2" type="string"/>
         <element choice="1" label="Approval" max_length="40" name="approval" read_only="true" type="choice">
             <choice>
-                <element label="Approved" sequence="0" value="approved"/>
-                <element label="Rejected" sequence="1" value="rejected"/>
+                <element label="Requested" sequence="0" value="requested"/>
+                <element label="Approved" sequence="1" value="approved"/>
+                <element label="Rejected" sequence="2" value="rejected"/>
             </choice>
         </element>
         <element label="Approval History" max_length="4000" name="approval_history" type="journal"/>
@@ -31,8 +32,10 @@
         <element label="HR Screen" max_length="32" name="hr_screen" reference="x_4s_recruiting_candidate_interviews" type="reference"/>
         <element label="HR Screened By" max_length="32" name="hr_screened_by" reference="sys_user" type="reference"/>
         <element label="HR Screen Date" max_length="40" name="hr_screen_date" type="glide_date"/>
+        <element label="HR Screen Recommended?" max_length="40" name="hr_screen_recommend" read_only="true" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Last Name" max_length="60" name="last_name" type="string"/>
         <element label="Manager Interviewer" max_length="32" name="manager_interviewer" reference="sys_user" type="reference"/>
+        <element label="Manager Interview Recommended?" max_length="40" name="mgr_int_recommend" read_only="true" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Middle Name/Initial" max_length="40" name="middle_name" type="string"/>
         <element display="true" label="Name" max_length="90" name="name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
@@ -48,11 +51,11 @@
             </choice>
         </element>
         <element label="Preferred E-mail Address" max_length="80" name="preferred_e_mail_address" type="string"/>
-        <element label="Preferred Phone Number" max_length="40" name="preferred_phone_number" type="phone_number_e164"/>
+        <element label="Mobile Phone Number" max_length="40" name="preferred_phone_number" type="phone_number_e164"/>
         <element label="Salary Requirements" max_length="65536" name="salary_requirements" type="glide_encrypted"/>
         <element label="Save for Future" max_length="40" name="save_for_future" type="boolean"/>
         <element label="State" max_length="2" name="state" type="string"/>
-        <element choice="1" label="Status" max_length="40" name="status" read_only="true" type="choice">
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
             <choice>
                 <element label="New - Pending Screen" sequence="0" value="pending_screen"/>
                 <element label="Scheduling Interviews" sequence="1" value="scheduling_interviews"/>
@@ -66,6 +69,17 @@
         <element label="Technical Interview" max_length="32" name="technical_interview" reference="x_4s_recruiting_candidate_interviews" type="reference"/>
         <element label="Technical Interviewer" max_length="32" name="technical_interviewer" reference="sys_user" type="reference"/>
         <element label="Technical Interview Date" max_length="40" name="technical_interview_date" type="glide_date_time"/>
+        <element label="Technical Interview Recommended?" max_length="40" name="tech_int_recommend" read_only="true" type="boolean"/>
+        <element choice="1" label="Workflow" max_length="80" name="workflow" read_only="true" type="workflow">
+            <choice>
+                <element label="New" sequence="1" value="new"/>
+                <element label="Screening" sequence="2" value="screening"/>
+                <element label="Interviewing" sequence="3" value="interviewing"/>
+                <element label="Awaiting Approval" sequence="4" value="approval"/>
+                <element label="Approved to Hire" sequence="5" value="approved"/>
+                <element label="Closed" sequence="6" value="closed"/>
+            </choice>
+        </element>
         <element label="Zip" max_length="20" name="zip" type="string"/>
         <index name="index">
             <element name="open_position_applied_for"/>

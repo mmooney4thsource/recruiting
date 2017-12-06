@@ -26,6 +26,8 @@
         <element>recruiter_screener</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
         <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
@@ -54,8 +56,8 @@
         <sys_policy/>
         <sys_scope display_value="Recruiting">8eca641313428b0031b855912244b01a</sys_scope>
         <sys_update_name>sys_dictionary_x_4s_recruiting_open_positions_recruiter_screener</sys_update_name>
-        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
-        <sys_updated_on>2017-11-03 20:59:52</sys_updated_on>
+        <sys_updated_by>mmooney</sys_updated_by>
+        <sys_updated_on>2017-12-06 17:03:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_portal_page" unload_date="2017-12-06 17:06:42">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout display_value="">04e933e353200200c0eca5f4a11c0806</layout>
+        <order/>
+        <read_roles>snc_internal</read_roles>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-29 16:14:00</sys_created_on>
+        <sys_domain>cf38ed714f982200355297dd0210c70b</sys_domain>
+        <sys_domain_path/>
+        <sys_id>14bb6d644f3603006aa9ab99f110c73c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>PA Current Status</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Recruiting" source="x_4s_recruiting">8eca641313428b0031b855912244b01a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Recruiting">8eca641313428b0031b855912244b01a</sys_scope>
+        <sys_update_name>sys_portal_page_14bb6d644f3603006aa9ab99f110c73c</sys_update_name>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-29 16:26:00</sys_updated_on>
+        <title>PA Current Status</title>
+        <user/>
+        <view>pa_current_status</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone3</dropzone>
+                <offset>0</offset>
+                <page display_value="PA Current Status">14bb6d644f3603006aa9ab99f110c73c</page>
+                <summary/>
+                <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                <sys_id>220175e84f3603006aa9ab99f110c7b7</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">220175e84f3603006aa9ab99f110c7b7</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>260175e84f3603006aa9ab99f110c7b9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">220175e84f3603006aa9ab99f110c7b7</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>2a0175e84f3603006aa9ab99f110c7b8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">220175e84f3603006aa9ab99f110c7b7</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>2e0175e84f3603006aa9ab99f110c7b7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">220175e84f3603006aa9ab99f110c7b7</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>a20175e84f3603006aa9ab99f110c7b7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>eb8085234f028b006aa9ab99f110c778</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">220175e84f3603006aa9ab99f110c7b7</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>a20175e84f3603006aa9ab99f110c7b8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">220175e84f3603006aa9ab99f110c7b7</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>a20175e84f3603006aa9ab99f110c7ba</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>14bb6d644f3603006aa9ab99f110c73c</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">220175e84f3603006aa9ab99f110c7b7</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>aa0175e84f3603006aa9ab99f110c7b9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>Scheduled Interviews</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">220175e84f3603006aa9ab99f110c7b7</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>ae0175e84f3603006aa9ab99f110c7b8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone4</dropzone>
+                <offset>1</offset>
+                <page display_value="PA Current Status">14bb6d644f3603006aa9ab99f110c73c</page>
+                <summary/>
+                <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                <sys_id>220175e84f3603006aa9ab99f110c7be</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">220175e84f3603006aa9ab99f110c7be</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>260175e84f3603006aa9ab99f110c7c0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>Candidate Status By Open Positions</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">220175e84f3603006aa9ab99f110c7be</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>2a0175e84f3603006aa9ab99f110c7bf</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">220175e84f3603006aa9ab99f110c7be</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>2e0175e84f3603006aa9ab99f110c7be</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">220175e84f3603006aa9ab99f110c7be</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>2e0175e84f3603006aa9ab99f110c7c0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>14bb6d644f3603006aa9ab99f110c73c</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">220175e84f3603006aa9ab99f110c7be</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>a20175e84f3603006aa9ab99f110c7be</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>098b7c2f4fce4b006aa9ab99f110c754</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">220175e84f3603006aa9ab99f110c7be</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>a20175e84f3603006aa9ab99f110c7bf</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">220175e84f3603006aa9ab99f110c7be</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>ae0175e84f3603006aa9ab99f110c7bf</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone5</dropzone>
+                <offset>1</offset>
+                <page display_value="PA Current Status">14bb6d644f3603006aa9ab99f110c73c</page>
+                <summary/>
+                <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                <sys_id>220175e84f3603006aa9ab99f110c7c8</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">220175e84f3603006aa9ab99f110c7c8</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>260175e84f3603006aa9ab99f110c7ca</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>Open Positions by Client - Trend</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">220175e84f3603006aa9ab99f110c7c8</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>2a0175e84f3603006aa9ab99f110c7c9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">220175e84f3603006aa9ab99f110c7c8</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>2e0175e84f3603006aa9ab99f110c7c8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">220175e84f3603006aa9ab99f110c7c8</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>2e0175e84f3603006aa9ab99f110c7ca</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>14bb6d644f3603006aa9ab99f110c73c</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">220175e84f3603006aa9ab99f110c7c8</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>a20175e84f3603006aa9ab99f110c7c8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>01dd6da44f3603006aa9ab99f110c7f2</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">220175e84f3603006aa9ab99f110c7c8</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>a20175e84f3603006aa9ab99f110c7c9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">220175e84f3603006aa9ab99f110c7c8</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>ae0175e84f3603006aa9ab99f110c7c9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>trend</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>0</offset>
+                <page display_value="PA Current Status">14bb6d644f3603006aa9ab99f110c73c</page>
+                <summary/>
+                <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                <sys_id>660175e84f3603006aa9ab99f110c7b3</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">660175e84f3603006aa9ab99f110c7b3</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>620175e84f3603006aa9ab99f110c7b4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">660175e84f3603006aa9ab99f110c7b3</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>6a0175e84f3603006aa9ab99f110c7b5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">660175e84f3603006aa9ab99f110c7b3</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>6e0175e84f3603006aa9ab99f110c7b4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">660175e84f3603006aa9ab99f110c7b3</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>e20175e84f3603006aa9ab99f110c7b5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">660175e84f3603006aa9ab99f110c7b3</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>e60175e84f3603006aa9ab99f110c7b3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>12400def4fce4b006aa9ab99f110c762</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">660175e84f3603006aa9ab99f110c7b3</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>e60175e84f3603006aa9ab99f110c7b4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">660175e84f3603006aa9ab99f110c7b3</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>e60175e84f3603006aa9ab99f110c7b6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>14bb6d644f3603006aa9ab99f110c73c</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">660175e84f3603006aa9ab99f110c7b3</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>ee0175e84f3603006aa9ab99f110c7b5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>Total Open Candidates</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone5</dropzone>
+                <offset>0</offset>
+                <page display_value="PA Current Status">14bb6d644f3603006aa9ab99f110c73c</page>
+                <summary/>
+                <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                <sys_id>660175e84f3603006aa9ab99f110c7c1</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">660175e84f3603006aa9ab99f110c7c1</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>620175e84f3603006aa9ab99f110c7c4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>widget_height</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">660175e84f3603006aa9ab99f110c7c1</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>620175e84f3603006aa9ab99f110c7c7</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:57:04</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">660175e84f3603006aa9ab99f110c7c1</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>660175e84f3603006aa9ab99f110c7c3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">660175e84f3603006aa9ab99f110c7c1</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>660175e84f3603006aa9ab99f110c7c6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_size</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">660175e84f3603006aa9ab99f110c7c1</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>6a0175e84f3603006aa9ab99f110c7c2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>10pt</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">660175e84f3603006aa9ab99f110c7c1</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>6a0175e84f3603006aa9ab99f110c7c5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">660175e84f3603006aa9ab99f110c7c1</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>6e0175e84f3603006aa9ab99f110c7c1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>left</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">660175e84f3603006aa9ab99f110c7c1</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>e20175e84f3603006aa9ab99f110c7c2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">660175e84f3603006aa9ab99f110c7c1</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>e60175e84f3603006aa9ab99f110c7c1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">660175e84f3603006aa9ab99f110c7c1</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>e60175e84f3603006aa9ab99f110c7c4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>Candidates by Status</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">660175e84f3603006aa9ab99f110c7c1</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>e60175e84f3603006aa9ab99f110c7c7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>14bb6d644f3603006aa9ab99f110c73c</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">660175e84f3603006aa9ab99f110c7c1</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>ea0175e84f3603006aa9ab99f110c7c3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>pareto</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">660175e84f3603006aa9ab99f110c7c1</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>ea0175e84f3603006aa9ab99f110c7c6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">660175e84f3603006aa9ab99f110c7c1</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>ee0175e84f3603006aa9ab99f110c7c2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">660175e84f3603006aa9ab99f110c7c1</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>ee0175e84f3603006aa9ab99f110c7c4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>97004daf4fce4b006aa9ab99f110c7b5</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">660175e84f3603006aa9ab99f110c7c1</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>ee0175e84f3603006aa9ab99f110c7c5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>0</offset>
+                <page display_value="PA Current Status">14bb6d644f3603006aa9ab99f110c73c</page>
+                <summary/>
+                <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                <sys_id>aa0175e84f3603006aa9ab99f110c7af</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">aa0175e84f3603006aa9ab99f110c7af</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>260175e84f3603006aa9ab99f110c7b2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>Total Open Positions</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">aa0175e84f3603006aa9ab99f110c7af</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>2a0175e84f3603006aa9ab99f110c7b1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">aa0175e84f3603006aa9ab99f110c7af</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>2e0175e84f3603006aa9ab99f110c7af</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>ae6009234f028b006aa9ab99f110c775</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">aa0175e84f3603006aa9ab99f110c7af</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>2e0175e84f3603006aa9ab99f110c7b0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">aa0175e84f3603006aa9ab99f110c7af</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>2e0175e84f3603006aa9ab99f110c7b2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>14bb6d644f3603006aa9ab99f110c73c</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">aa0175e84f3603006aa9ab99f110c7af</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>a20175e84f3603006aa9ab99f110c7b1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">aa0175e84f3603006aa9ab99f110c7af</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>a60175e84f3603006aa9ab99f110c7b0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">aa0175e84f3603006aa9ab99f110c7af</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>ae0175e84f3603006aa9ab99f110c7b1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone4</dropzone>
+                <offset>0</offset>
+                <page display_value="PA Current Status">14bb6d644f3603006aa9ab99f110c73c</page>
+                <summary/>
+                <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                <sys_id>ea0175e84f3603006aa9ab99f110c7ba</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">ea0175e84f3603006aa9ab99f110c7ba</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>6a0175e84f3603006aa9ab99f110c7bc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">ea0175e84f3603006aa9ab99f110c7ba</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>6e0175e84f3603006aa9ab99f110c7ba</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>16df34234f028b006aa9ab99f110c713</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">ea0175e84f3603006aa9ab99f110c7ba</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>6e0175e84f3603006aa9ab99f110c7bb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">ea0175e84f3603006aa9ab99f110c7ba</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>e20175e84f3603006aa9ab99f110c7bc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>line</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">ea0175e84f3603006aa9ab99f110c7ba</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>e60175e84f3603006aa9ab99f110c7bb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">ea0175e84f3603006aa9ab99f110c7ba</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>e60175e84f3603006aa9ab99f110c7bd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>14bb6d644f3603006aa9ab99f110c73c</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-11-29 11:37:21">ea0175e84f3603006aa9ab99f110c7ba</portal_section>
+                        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+                        <sys_created_on>2017-11-29 16:37:21</sys_created_on>
+                        <sys_id>ee0175e84f3603006aa9ab99f110c7bc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+                        <sys_updated_on>2017-11-29 16:37:21</sys_updated_on>
+                        <value>New Candidates By Client</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

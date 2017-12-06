@@ -33,7 +33,7 @@ action.setRedirectURL(currentUrl + '/x_4s_recruiting_job_descriptions.do?sys_id=
         <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
         <sys_created_on>2017-11-02 17:56:52</sys_created_on>
         <sys_domain>cf38ed714f982200355297dd0210c70b</sys_domain>
-        <sys_domain_path/>
+        <sys_domain_path>!!!/!!!/!!$/</sys_domain_path>
         <sys_id>d2feb23b134acb0031b855912244b0d0</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Create Job Description</sys_name>

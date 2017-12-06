@@ -36,7 +36,7 @@ function updateAssocSkill(response){
         <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
         <sys_created_on>2017-11-02 14:58:34</sys_created_on>
         <sys_domain>cf38ed714f982200355297dd0210c70b</sys_domain>
-        <sys_domain_path/>
+        <sys_domain_path>!!!/!!!/!!$/</sys_domain_path>
         <sys_id>69655efb13c6cb0031b855912244b0de</sys_id>
         <sys_mod_count>11</sys_mod_count>
         <sys_name>Update Associated Skills from Required</sys_name>

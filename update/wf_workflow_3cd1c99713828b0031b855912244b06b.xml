@@ -1,0 +1,1275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"subflows":[],"stages":{},"activities":{},"ends":["3e0128bc136a874031b855912244b013"]}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type>run_match</condition_type>
+        <description/>
+        <expected_sequences>260128bc136a874031b855912244b004,3a0128bc136a874031b855912244b009,6a0128bc136a874031b855912244b006,e60128bc136a874031b855912244b008,b60128bc136a874031b855912244b011,3e0128bc136a874031b855912244b012,fe0128bc136a874031b855912244b00b,6e0128bc136a874031b855912244b002,3e0128bc136a874031b855912244b013</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>260128bc136a874031b855912244b004,3a0128bc136a874031b855912244b009,6a0128bc136a874031b855912244b006,e60128bc136a874031b855912244b008,b60128bc136a874031b855912244b011,3e0128bc136a874031b855912244b012,fe0128bc136a874031b855912244b00b,6e0128bc136a874031b855912244b002,3e0128bc136a874031b855912244b013</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>4th Source Recruiting</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">260128bc136a874031b855912244b004</start>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:37</sys_created_on>
+        <sys_id>a601e87c136a874031b855912244b052</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-29 17:05:21</sys_updated_on>
+        <table>x_4s_recruiting_open_positions</table>
+        <timezone/>
+        <validated>true</validated>
+        <workflow display_value="4th Source Recruiting">3cd1c99713828b0031b855912244b06b</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description/>
+        <name>4th Source Recruiting</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-10-31 19:27:16</sys_created_on>
+        <sys_domain>cf38ed714f982200355297dd0210c70b</sys_domain>
+        <sys_domain_path/>
+        <sys_id>3cd1c99713828b0031b855912244b06b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4th Source Recruiting</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Recruiting" source="x_4s_recruiting">8eca641313428b0031b855912244b01a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Recruiting">8eca641313428b0031b855912244b01a</sys_scope>
+        <sys_update_name>wf_workflow_3cd1c99713828b0031b855912244b06b</sys_update_name>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-10-31 19:27:16</sys_updated_on>
+        <table>x_4s_recruiting_open_positions</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Timer">3961a1da0a0a0b5c00ecd84822f70d85</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>8</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Autoclose after positions filled after 14 days</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>fe0128bc136a874031b855912244b00b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="4th Source Recruiting">a601e87c136a874031b855912244b052</workflow_version>
+        <x>1149</x>
+        <y>290</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=fe0128bc136a874031b855912244b00b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fe0128bc136a874031b855912244b00b</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>320128bc136a874031b855912244b00d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value>user_specified_timezone</value>
+        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fe0128bc136a874031b855912244b00b</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>360128bc136a874031b855912244b00e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value/>
+        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fe0128bc136a874031b855912244b00b</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>3a0128bc136a874031b855912244b00f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fe0128bc136a874031b855912244b00b</document_key>
+        <order>320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>720128bc136a874031b855912244b00c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value>user_specified_schedule</value>
+        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fe0128bc136a874031b855912244b00b</document_key>
+        <order>3000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>760128bc136a874031b855912244b00d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fe0128bc136a874031b855912244b00b</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>7a0128bc136a874031b855912244b00e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value/>
+        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fe0128bc136a874031b855912244b00b</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>7e0128bc136a874031b855912244b00f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value/>
+        <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fe0128bc136a874031b855912244b00b</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>b20128bc136a874031b855912244b010</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value/>
+        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fe0128bc136a874031b855912244b00b</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>b60128bc136a874031b855912244b00c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value/>
+        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fe0128bc136a874031b855912244b00b</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>ba0128bc136a874031b855912244b00d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value>1970-01-15 00:00:00</value>
+        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fe0128bc136a874031b855912244b00b</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>be0128bc136a874031b855912244b00e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value/>
+        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fe0128bc136a874031b855912244b00b</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>f20128bc136a874031b855912244b00f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value>090eecae0a0a0b260077e1dfa71da828</value>
+        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fe0128bc136a874031b855912244b00b</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>f60128bc136a874031b855912244b010</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fe0128bc136a874031b855912244b00b</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>fa0128bc136a874031b855912244b00c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value>US/Eastern</value>
+        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fe0128bc136a874031b855912244b00b</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>fe0128bc136a874031b855912244b00d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fe0128bc136a874031b855912244b00b</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>b20128bc136a874031b855912244b010</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value/>
+        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fe0128bc136a874031b855912244b00b</document_key>
+        <order>320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>720128bc136a874031b855912244b00c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value>user_specified_schedule</value>
+        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fe0128bc136a874031b855912244b00b</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>320128bc136a874031b855912244b00d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value>user_specified_timezone</value>
+        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fe0128bc136a874031b855912244b00b</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>b60128bc136a874031b855912244b00c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value/>
+        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fe0128bc136a874031b855912244b00b</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>360128bc136a874031b855912244b00e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value/>
+        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fe0128bc136a874031b855912244b00b</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>ba0128bc136a874031b855912244b00d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value>1970-01-15 00:00:00</value>
+        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fe0128bc136a874031b855912244b00b</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>fe0128bc136a874031b855912244b00d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fe0128bc136a874031b855912244b00b</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>3a0128bc136a874031b855912244b00f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fe0128bc136a874031b855912244b00b</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>f20128bc136a874031b855912244b00f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value>090eecae0a0a0b260077e1dfa71da828</value>
+        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fe0128bc136a874031b855912244b00b</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>f60128bc136a874031b855912244b010</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fe0128bc136a874031b855912244b00b</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>fa0128bc136a874031b855912244b00c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value>US/Eastern</value>
+        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fe0128bc136a874031b855912244b00b</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>7a0128bc136a874031b855912244b00e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value/>
+        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fe0128bc136a874031b855912244b00b</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>7e0128bc136a874031b855912244b00f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value/>
+        <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fe0128bc136a874031b855912244b00b</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>be0128bc136a874031b855912244b00e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value/>
+        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fe0128bc136a874031b855912244b00b</document_key>
+        <order>3000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>760128bc136a874031b855912244b00d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Autoclose after positions filled after 14 days">fe0128bc136a874031b855912244b00b</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>7e0128bc136a874031b855912244b010</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:37</sys_created_on>
+        <sys_id>260128bc136a874031b855912244b004</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:37</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="4th Source Recruiting">a601e87c136a874031b855912244b052</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=260128bc136a874031b855912244b004"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">260128bc136a874031b855912244b004</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:37</sys_created_on>
+        <sys_id>ee0128bc136a874031b855912244b004</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:37</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Wait for condition">d93a02ae0a0a0aa30077abad3fdac035</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>6</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Check for all positions filled</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>b60128bc136a874031b855912244b011</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="4th Source Recruiting">a601e87c136a874031b855912244b052</workflow_version>
+        <x>877</x>
+        <y>54</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=b60128bc136a874031b855912244b011"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b60128bc136a874031b855912244b011</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>3a0128bc136a874031b855912244b011</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+answer = true;&#13;
+</value>
+        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b60128bc136a874031b855912244b011</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>7e0128bc136a874031b855912244b011</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value>total_positions_to_fillSAMEASpositions_filled^EQ</value>
+        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b60128bc136a874031b855912244b011</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>7e0128bc136a874031b855912244b011</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value>total_positions_to_fillSAMEASpositions_filled^EQ</value>
+        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b60128bc136a874031b855912244b011</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>3a0128bc136a874031b855912244b011</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+answer = true;&#13;
+</value>
+        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Check for all positions filled">b60128bc136a874031b855912244b011</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>f20128bc136a874031b855912244b012</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Wait for condition">d93a02ae0a0a0aa30077abad3fdac035</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Check for Scheduled Interviews</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:37</sys_created_on>
+        <sys_id>6a0128bc136a874031b855912244b006</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:37</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="4th Source Recruiting">a601e87c136a874031b855912244b052</workflow_version>
+        <x>445</x>
+        <y>48</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=6a0128bc136a874031b855912244b006"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>6a0128bc136a874031b855912244b006</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:37</sys_created_on>
+        <sys_id>260128bc136a874031b855912244b007</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:37</sys_updated_on>
+        <value/>
+        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>6a0128bc136a874031b855912244b006</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:37</sys_created_on>
+        <sys_id>ee0128bc136a874031b855912244b006</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:37</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+answer = intCheckScript();&#13;
+&#13;
+function intCheckScript() {&#13;
+	var intSched = new GlideRecord('x_4s_recruiting_candidate_interviews');&#13;
+	intSched.addQuery('open_position', current.getUniqueValue());&#13;
+	intSched.addActiveQuery();&#13;
+	intSched.query();&#13;
+	if (intSched.next()) {&#13;
+		return true;&#13;
+	}&#13;
+	return false;&#13;
+}&#13;
+</value>
+        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>6a0128bc136a874031b855912244b006</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:37</sys_created_on>
+        <sys_id>260128bc136a874031b855912244b007</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:37</sys_updated_on>
+        <value/>
+        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>6a0128bc136a874031b855912244b006</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:37</sys_created_on>
+        <sys_id>ee0128bc136a874031b855912244b006</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:37</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+answer = intCheckScript();&#13;
+&#13;
+function intCheckScript() {&#13;
+	var intSched = new GlideRecord('x_4s_recruiting_candidate_interviews');&#13;
+	intSched.addQuery('open_position', current.getUniqueValue());&#13;
+	intSched.addActiveQuery();&#13;
+	intSched.query();&#13;
+	if (intSched.next()) {&#13;
+		return true;&#13;
+	}&#13;
+	return false;&#13;
+}&#13;
+</value>
+        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Check for Scheduled Interviews">6a0128bc136a874031b855912244b006</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:37</sys_created_on>
+        <sys_id>ae0128bc136a874031b855912244b007</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:37</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>10</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Close and set inactive</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:37</sys_created_on>
+        <sys_id>6e0128bc136a874031b855912244b002</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:37</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="4th Source Recruiting">a601e87c136a874031b855912244b052</workflow_version>
+        <x>1288</x>
+        <y>444</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=6e0128bc136a874031b855912244b002"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>6e0128bc136a874031b855912244b002</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:37</sys_created_on>
+        <sys_id>e20128bc136a874031b855912244b003</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:37</sys_updated_on>
+        <value>status=closed^active=false^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>6e0128bc136a874031b855912244b002</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:37</sys_created_on>
+        <sys_id>e20128bc136a874031b855912244b003</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:37</sys_updated_on>
+        <value>status=closed^active=false^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Close and set inactive">6e0128bc136a874031b855912244b002</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:37</sys_created_on>
+        <sys_id>6a0128bc136a874031b855912244b003</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:37</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>3e0128bc136a874031b855912244b013</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="4th Source Recruiting">a601e87c136a874031b855912244b052</workflow_version>
+        <x>1449</x>
+        <y>614</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=3e0128bc136a874031b855912244b013"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>New Opening</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>3a0128bc136a874031b855912244b009</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="4th Source Recruiting">a601e87c136a874031b855912244b052</workflow_version>
+        <x>224</x>
+        <y>54</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=3a0128bc136a874031b855912244b009"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>3a0128bc136a874031b855912244b009</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>ba0128bc136a874031b855912244b009</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value>status=open^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>3a0128bc136a874031b855912244b009</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>ba0128bc136a874031b855912244b009</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value>status=open^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="New Opening">3a0128bc136a874031b855912244b009</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>320128bc136a874031b855912244b00a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>5</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Set Status to Interviewing</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>e60128bc136a874031b855912244b008</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="4th Source Recruiting">a601e87c136a874031b855912244b052</workflow_version>
+        <x>656</x>
+        <y>54</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=e60128bc136a874031b855912244b008"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e60128bc136a874031b855912244b008</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>6a0128bc136a874031b855912244b008</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value>status=interviewing^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e60128bc136a874031b855912244b008</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>6a0128bc136a874031b855912244b008</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value>status=interviewing^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Set Status to Interviewing">e60128bc136a874031b855912244b008</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>ee0128bc136a874031b855912244b008</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>7</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Set Values to Positions Filled</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>3e0128bc136a874031b855912244b012</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="4th Source Recruiting">a601e87c136a874031b855912244b052</workflow_version>
+        <x>1019</x>
+        <y>186</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=3e0128bc136a874031b855912244b012"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>3e0128bc136a874031b855912244b012</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>be0128bc136a874031b855912244b012</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value>status=positions_filled^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>3e0128bc136a874031b855912244b012</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>be0128bc136a874031b855912244b012</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <value>status=positions_filled^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Set Values to Positions Filled">3e0128bc136a874031b855912244b012</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>360128bc136a874031b855912244b013</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">7e0128bc136a874031b855912244b010</condition>
+        <from display_value="Autoclose after positions filled after 14 days">fe0128bc136a874031b855912244b00b</from>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:39</sys_created_on>
+        <sys_id>030128bc136a874031b855912244b019</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:39</sys_updated_on>
+        <to display_value="Close and set inactive">6e0128bc136a874031b855912244b002</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">360128bc136a874031b855912244b013</condition>
+        <from display_value="Set Values to Positions Filled">3e0128bc136a874031b855912244b012</from>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>360128bc136a874031b855912244b016</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <to display_value="Autoclose after positions filled after 14 days">fe0128bc136a874031b855912244b00b</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">ae0128bc136a874031b855912244b007</condition>
+        <from display_value="Check for Scheduled Interviews">6a0128bc136a874031b855912244b006</from>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>360128bc136a874031b855912244b017</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <to display_value="Set Status to Interviewing">e60128bc136a874031b855912244b008</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">6a0128bc136a874031b855912244b003</condition>
+        <from display_value="Close and set inactive">6e0128bc136a874031b855912244b002</from>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>3a0128bc136a874031b855912244b015</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <to display_value="End">3e0128bc136a874031b855912244b013</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">320128bc136a874031b855912244b00a</condition>
+        <from display_value="New Opening">3a0128bc136a874031b855912244b009</from>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>3e0128bc136a874031b855912244b016</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <to display_value="Check for Scheduled Interviews">6a0128bc136a874031b855912244b006</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">ee0128bc136a874031b855912244b008</condition>
+        <from display_value="Set Status to Interviewing">e60128bc136a874031b855912244b008</from>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:39</sys_created_on>
+        <sys_id>4b0128bc136a874031b855912244b018</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:39</sys_updated_on>
+        <to display_value="Check for all positions filled">b60128bc136a874031b855912244b011</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">f20128bc136a874031b855912244b012</condition>
+        <from display_value="Check for all positions filled">b60128bc136a874031b855912244b011</from>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:39</sys_created_on>
+        <sys_id>b20128bc136a874031b855912244b018</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:39</sys_updated_on>
+        <to display_value="Set Values to Positions Filled">3e0128bc136a874031b855912244b012</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">ee0128bc136a874031b855912244b004</condition>
+        <from display_value="Begin">260128bc136a874031b855912244b004</from>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:38</sys_created_on>
+        <sys_id>fa0128bc136a874031b855912244b017</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:38</sys_updated_on>
+        <to display_value="New Opening">3a0128bc136a874031b855912244b009</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-17 19:10:37</sys_created_on>
+        <sys_id>aa01e87c136a874031b855912244b052</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-17 19:10:37</sys_updated_on>
+        <workflow_version display_value="4th Source Recruiting">a601e87c136a874031b855912244b052</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=3cd1c99713828b0031b855912244b06b^sys_id!=a601e87c136a874031b855912244b052">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

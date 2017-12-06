@@ -9,6 +9,7 @@
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_4s_recruiting.recruiting_admin</name>
+        <scoped_admin>false</scoped_admin>
         <suffix>recruiting_admin</suffix>
         <sys_class_name>sys_user_role</sys_class_name>
         <sys_created_by>mike.mooney@4thsource.com</sys_created_by>

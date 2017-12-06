@@ -6,56 +6,42 @@
             <list_id display_value="Candidate Interviews - Default view" name="x_4s_recruiting_candidate_interviews" related_list="NULL" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">8241015313828b0031b855912244b0c3</list_id>
             <order_by/>
             <position>0</position>
-            <related_list>REL:b9edf0ca0a0a0b010035de2d6b579a03</related_list>
+            <related_list>x_4s_recruiting_candidates.hiring_manager_interview</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
-            <sys_created_on>2017-10-31 19:24:54</sys_created_on>
-            <sys_id>4a41015313828b0031b855912244b0c3</sys_id>
+            <sys_created_on>2017-12-05 17:29:51</sys_created_on>
+            <sys_id>0696bce64f7a07006aa9ab99f110c77b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
-            <sys_updated_on>2017-10-31 19:24:54</sys_updated_on>
+            <sys_updated_on>2017-12-05 17:29:51</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
             <list_id display_value="Candidate Interviews - Default view" name="x_4s_recruiting_candidate_interviews" related_list="NULL" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">8241015313828b0031b855912244b0c3</list_id>
             <order_by/>
             <position>1</position>
-            <related_list>x_4s_recruiting_candidates.hiring_manager_interview</related_list>
+            <related_list>x_4s_recruiting_candidates.hr_screen</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
-            <sys_created_on>2017-10-31 19:24:54</sys_created_on>
-            <sys_id>4e41015313828b0031b855912244b0c3</sys_id>
+            <sys_created_on>2017-12-05 17:29:51</sys_created_on>
+            <sys_id>8296bce64f7a07006aa9ab99f110c77c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
-            <sys_updated_on>2017-10-31 19:24:54</sys_updated_on>
+            <sys_updated_on>2017-12-05 17:29:51</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
             <list_id display_value="Candidate Interviews - Default view" name="x_4s_recruiting_candidate_interviews" related_list="NULL" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">8241015313828b0031b855912244b0c3</list_id>
             <order_by/>
             <position>2</position>
-            <related_list>x_4s_recruiting_candidates.hr_screen</related_list>
-            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
-            <sys_created_on>2017-10-31 19:24:54</sys_created_on>
-            <sys_id>4241015313828b0031b855912244b0c4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
-            <sys_updated_on>2017-10-31 19:24:54</sys_updated_on>
-        </sys_ui_related_list_entry>
-        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
-            <filter/>
-            <list_id display_value="Candidate Interviews - Default view" name="x_4s_recruiting_candidate_interviews" related_list="NULL" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">8241015313828b0031b855912244b0c3</list_id>
-            <order_by/>
-            <position>3</position>
             <related_list>x_4s_recruiting_candidates.technical_interview</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
-            <sys_created_on>2017-10-31 19:24:54</sys_created_on>
-            <sys_id>4641015313828b0031b855912244b0c4</sys_id>
+            <sys_created_on>2017-12-05 17:29:51</sys_created_on>
+            <sys_id>8696bce64f7a07006aa9ab99f110c77c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
-            <sys_updated_on>2017-10-31 19:24:54</sys_updated_on>
+            <sys_updated_on>2017-12-05 17:29:51</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Candidate Interviews - Default view</calculated_name>
@@ -66,7 +52,7 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
-            <sys_created_on>2017-10-31 19:24:54</sys_created_on>
+            <sys_created_on>2017-12-05 17:29:51</sys_created_on>
             <sys_domain>cf38ed714f982200355297dd0210c70b</sys_domain>
             <sys_domain_path/>
             <sys_id>8241015313828b0031b855912244b0c3</sys_id>
@@ -77,7 +63,7 @@
             <sys_scope display_value="Recruiting">8eca641313428b0031b855912244b01a</sys_scope>
             <sys_update_name>sys_ui_related_x_4s_recruiting_candidate_interviews_null_8241015313828b0031b855912244b0c3</sys_update_name>
             <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
-            <sys_updated_on>2017-10-31 19:24:54</sys_updated_on>
+            <sys_updated_on>2017-12-05 17:29:51</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

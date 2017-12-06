@@ -31,6 +31,8 @@
         <element/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
         <internal_type display_value="Collection">collection</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
@@ -53,14 +55,14 @@
         <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
         <sys_created_on>2017-11-02 14:06:28</sys_created_on>
         <sys_id>fc9b0ef313c6cb0031b855912244b033</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>x_4s_recruiting_job_descriptions</sys_name>
         <sys_package display_value="Recruiting" source="x_4s_recruiting">8eca641313428b0031b855912244b01a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Recruiting">8eca641313428b0031b855912244b01a</sys_scope>
-        <sys_update_name>sys_dictionary_x_4s_recruiting_job_descriptions_null</sys_update_name>
-        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
-        <sys_updated_on>2017-11-03 21:33:52</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_4s_recruiting_job_descriptions_NULL</sys_update_name>
+        <sys_updated_by>mmooney</sys_updated_by>
+        <sys_updated_on>2017-12-06 17:03:41</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

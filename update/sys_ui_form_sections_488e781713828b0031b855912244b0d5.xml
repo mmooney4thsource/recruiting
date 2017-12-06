@@ -15,20 +15,6 @@
             <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
             <sys_updated_on>2017-10-31 19:12:45</sys_updated_on>
         </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>1</position>
-            <sys_created_by>mmooney</sys_created_by>
-            <sys_created_on>2017-11-14 22:28:49</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>38a171f74fd2030032d31b818110c732</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_4s_recruiting_candidate_interviews" name="x_4s_recruiting_candidate_interviews" sys_domain="cf38ed714f982200355297dd0210c70b" view="Default view">488e781713828b0031b855912244b0d5</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="x_4s_recruiting_candidate_interviews" sys_domain="global" view="Default view">6871f8dc4f9acb006aa9ab99f110c7ee</sys_ui_section>
-            <sys_updated_by>mmooney</sys_updated_by>
-            <sys_updated_on>2017-11-14 22:28:49</sys_updated_on>
-        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_4s_recruiting_candidate_interviews</name>
             <roles/>

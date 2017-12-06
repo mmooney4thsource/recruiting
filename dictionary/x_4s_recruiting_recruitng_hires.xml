@@ -2,7 +2,10 @@
 <database>
     <element audit="true" label="Recruitng Hires" max_length="40" name="x_4s_recruiting_recruitng_hires" type="collection">
         <element label="Background Check Passed?" max_length="40" name="background_check_passed" type="boolean"/>
+        <element label="Client" max_length="32" name="client" reference="core_company" type="reference"/>
         <element label="Comments" max_length="4000" name="comments" type="journal"/>
+        <element label="Company Email Address" max_length="80" name="company_email_address" type="string"/>
+        <element label="Company Phone Number" max_length="40" name="company_phone_number" type="phone_number_e164"/>
         <element label="Drug Screen Passed?" max_length="40" name="drug_screen_passed" type="boolean"/>
         <element label="New Hire" max_length="32" name="new_hire" reference="x_4s_recruiting_candidates" type="reference"/>
         <element label="HR Onboarding Case" max_length="32" name="new_hire_hr_case" reference="hr_case" type="reference"/>
@@ -10,6 +13,8 @@
         <element label="Salary Offered" max_length="65536" name="offer" type="glide_encrypted"/>
         <element label="Offer Letter Accepted?" max_length="40" name="offer_letter_accepted" type="boolean"/>
         <element label="Open Position Filled" max_length="32" name="open_positions_filled" reference="x_4s_recruiting_open_positions" type="reference"/>
+        <element label="Opportunity" max_length="32" name="opportunity" reference="u_opportunity_pipeline" type="reference"/>
+        <element label="Preferred Name" max_length="40" name="preferred_name" type="string"/>
         <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Type of Role" max_length="80" name="type_of_role" type="string">
             <choice>
@@ -19,6 +24,7 @@
                 <element label="Consultant" sequence="3" value="4"/>
             </choice>
         </element>
+        <element label="ServiceNow User Account" max_length="32" name="user_account" reference="sys_user" type="reference"/>
         <index name="index">
             <element name="new_hire"/>
         </index>
@@ -26,6 +32,15 @@
             <element name="new_hire_hr_case"/>
         </index>
         <index name="index3">
+            <element name="user_account"/>
+        </index>
+        <index name="index4">
+            <element name="client"/>
+        </index>
+        <index name="index5">
+            <element name="opportunity"/>
+        </index>
+        <index name="index6">
             <element name="open_positions_filled"/>
         </index>
     </element>

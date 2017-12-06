@@ -33,7 +33,7 @@ action.setRedirectURL(currentUrl + '/cmn_skill.do?sys_id=-1');]]></script>
         <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
         <sys_created_on>2017-11-02 18:01:42</sys_created_on>
         <sys_domain>cf38ed714f982200355297dd0210c70b</sys_domain>
-        <sys_domain_path/>
+        <sys_domain_path>!!!/!!!/!!$/</sys_domain_path>
         <sys_id>2cb0c37b134acb0031b855912244b00f</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Create New Required Skill</sys_name>

@@ -14,7 +14,7 @@
         <runtime_access_tracking>permissive</runtime_access_tracking>
         <scope>x_4s_recruiting</scope>
         <scoped_administration>false</scoped_administration>
-        <short_description>An application for managing the all phases of the recruiting process</short_description>
+        <short_description>An application for managing all phases of the recruiting process.</short_description>
         <source>x_4s_recruiting</source>
         <store_correlation_id>REPOAPP0000042108</store_correlation_id>
         <store_url/>
@@ -23,14 +23,14 @@
         <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
         <sys_created_on>2017-10-31 17:46:36</sys_created_on>
         <sys_id>8eca641313428b0031b855912244b01a</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
-        <sys_updated_on>2017-11-14 22:09:02</sys_updated_on>
+        <sys_updated_on>2017-12-06 16:52:38</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role display_value="x_4s_recruiting.hr_user" name="x_4s_recruiting.hr_user">2d2d689713428b0031b855912244b078</user_role>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
     </sys_app>
 </record_update>

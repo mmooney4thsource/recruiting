@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="workflow" table="x_4s_recruiting_candidates" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>workflow</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New</label>
+            <language>en</language>
+            <name>x_4s_recruiting_candidates</name>
+            <sequence>1</sequence>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-12-05 15:29:43</sys_created_on>
+            <sys_domain>cf38ed714f982200355297dd0210c70b</sys_domain>
+            <sys_domain_path/>
+            <sys_id>9e1bd0a64f3a07006aa9ab99f110c722</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-12-05 15:30:23</sys_updated_on>
+            <value>new</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>workflow</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Screening</label>
+            <language>en</language>
+            <name>x_4s_recruiting_candidates</name>
+            <sequence>2</sequence>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-12-05 15:31:05</sys_created_on>
+            <sys_domain>cf38ed714f982200355297dd0210c70b</sys_domain>
+            <sys_domain_path/>
+            <sys_id>d74b18a64f3a07006aa9ab99f110c73c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-12-05 15:31:05</sys_updated_on>
+            <value>screening</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>workflow</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Interviewing</label>
+            <language>en</language>
+            <name>x_4s_recruiting_candidates</name>
+            <sequence>3</sequence>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-12-05 15:31:38</sys_created_on>
+            <sys_domain>cf38ed714f982200355297dd0210c70b</sys_domain>
+            <sys_domain_path/>
+            <sys_id>227b18a64f3a07006aa9ab99f110c7ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-12-05 15:31:38</sys_updated_on>
+            <value>interviewing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>workflow</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Awaiting Approval</label>
+            <language>en</language>
+            <name>x_4s_recruiting_candidates</name>
+            <sequence>4</sequence>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-12-05 15:32:07</sys_created_on>
+            <sys_domain>cf38ed714f982200355297dd0210c70b</sys_domain>
+            <sys_domain_path/>
+            <sys_id>169b58a64f3a07006aa9ab99f110c73d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-12-05 15:32:48</sys_updated_on>
+            <value>approval</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>workflow</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approved to Hire</label>
+            <language>en</language>
+            <name>x_4s_recruiting_candidates</name>
+            <sequence>5</sequence>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-12-05 15:32:33</sys_created_on>
+            <sys_domain>cf38ed714f982200355297dd0210c70b</sys_domain>
+            <sys_domain_path/>
+            <sys_id>a8bbd8a64f3a07006aa9ab99f110c7ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-12-05 15:32:33</sys_updated_on>
+            <value>approved</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>workflow</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed</label>
+            <language>en</language>
+            <name>x_4s_recruiting_candidates</name>
+            <sequence>6</sequence>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-12-05 15:33:07</sys_created_on>
+            <sys_domain>cf38ed714f982200355297dd0210c70b</sys_domain>
+            <sys_domain_path/>
+            <sys_id>74db54a64f3a07006aa9ab99f110c7ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-12-05 15:33:07</sys_updated_on>
+            <value>closed</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>workflow</element>
+            <name>x_4s_recruiting_candidates</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+            <sys_created_on>2017-12-05 15:29:43</sys_created_on>
+            <sys_id>3d3a39f64fb2030032d31b818110c7f4</sys_id>
+            <sys_mod_count>10</sys_mod_count>
+            <sys_name>workflow</sys_name>
+            <sys_package display_value="Recruiting" source="x_4s_recruiting">8eca641313428b0031b855912244b01a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Recruiting">8eca641313428b0031b855912244b01a</sys_scope>
+            <sys_update_name>sys_choice_x_4s_recruiting_candidates_workflow</sys_update_name>
+            <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+            <sys_updated_on>2017-12-05 15:33:07</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

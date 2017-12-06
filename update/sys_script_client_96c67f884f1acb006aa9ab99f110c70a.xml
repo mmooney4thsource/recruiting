@@ -29,7 +29,7 @@ function updateInterviewer(response){
         <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
         <sys_created_on>2017-11-03 16:33:20</sys_created_on>
         <sys_domain>cf38ed714f982200355297dd0210c70b</sys_domain>
-        <sys_domain_path/>
+        <sys_domain_path>!!!/!!!/!!$/</sys_domain_path>
         <sys_id>96c67f884f1acb006aa9ab99f110c70a</sys_id>
         <sys_mod_count>11</sys_mod_count>
         <sys_name>Populate Technical Interviewer</sys_name>

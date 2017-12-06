@@ -3,6 +3,7 @@
     <sys_report action="INSERT_OR_UPDATE">
         <additional_groupby/>
         <aggregate>COUNT</aggregate>
+        <allow_data_label_overlap>false</allow_data_label_overlap>
         <axis_max_color display_value="UI14 Blue Light">b0d449b3d7332100fa6c0c12ce610383</axis_max_color>
         <axis_min_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</axis_min_color>
         <bar_unstack>false</bar_unstack>
@@ -27,13 +28,15 @@
         <created_by_user/>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
+        <custom_config/>
         <decimal_precision>0</decimal_precision>
         <description/>
         <direction>minimize</direction>
         <display_column_lines>false</display_column_lines>
-        <display_grid>true</display_grid>
+        <display_grid>false</display_grid>
         <display_row_lines>false</display_row_lines>
         <donut_width_percent>50</donut_width_percent>
+        <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
         <field>status</field>
         <field_list/>
@@ -74,30 +77,34 @@
         <sc_stackby_item_id/>
         <sc_stackby_variable_id/>
         <score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color>
+        <series_name_text/>
         <set_color>color_palette</set_color>
         <show_chart_border>false</show_chart_border>
         <show_chart_data_label>false</show_chart_data_label>
         <show_chart_title>report</show_chart_title>
         <show_chart_total>false</show_chart_total>
+        <show_data_label_position_middle>false</show_data_label_position_middle>
         <show_empty>false</show_empty>
         <show_geographical_label>false</show_geographical_label>
         <show_legend>true</show_legend>
         <show_legend_border>false</show_legend_border>
         <show_marker>true</show_marker>
         <show_zero>false</show_zero>
+        <source_type>table</source_type>
+        <start_time/>
         <sumfield>sys_mod_count</sumfield>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
         <sys_created_on>2017-11-01 13:38:11</sys_created_on>
         <sys_id>098b7c2f4fce4b006aa9ab99f110c754</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Candidate Status By Open Positions</sys_name>
         <sys_package display_value="Recruiting" source="x_4s_recruiting">8eca641313428b0031b855912244b01a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Recruiting">8eca641313428b0031b855912244b01a</sys_scope>
         <sys_update_name>sys_report_098b7c2f4fce4b006aa9ab99f110c754</sys_update_name>
         <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
-        <sys_updated_on>2017-11-01 13:43:35</sys_updated_on>
+        <sys_updated_on>2017-11-29 16:29:24</sys_updated_on>
         <table>x_4s_recruiting_candidates</table>
         <title>Candidate Status By Open Positions</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Job Descriptions activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_4s_recruiting_job_descriptions_activity.fields</name>
+        <read_roles/>
+        <suffix/>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>mike.mooney@4thsource.com</sys_created_by>
+        <sys_created_on>2017-11-27 16:30:28</sys_created_on>
+        <sys_id>0a4c5bff4fe60f406aa9ab99f110c749</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.x_4s_recruiting_job_descriptions_activity.fields</sys_name>
+        <sys_package display_value="Recruiting" source="x_4s_recruiting">8eca641313428b0031b855912244b01a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Recruiting">8eca641313428b0031b855912244b01a</sys_scope>
+        <sys_update_name>sys_properties_0a4c5bff4fe60f406aa9ab99f110c749</sys_update_name>
+        <sys_updated_by>mike.mooney@4thsource.com</sys_updated_by>
+        <sys_updated_on>2017-11-27 16:30:28</sys_updated_on>
+        <type>string</type>
+        <value>number,name,job_description,nice_to_have,required_skills,associated_skills,*Attachments*,sys_updated_by,sys_updated_on,sys_created_by,sys_created_on</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=0a4c5bff4fe60f406aa9ab99f110c749"/>
+</record_update>
